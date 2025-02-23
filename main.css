@@ -38,6 +38,7 @@ body {
   display: none;
   flex-direction: column;
   position: absolute;
+  background-color: #101010;
   top: 50px;
   left: 0;
   width: 200px;
@@ -235,5 +236,11 @@ li {
   }
   .experience-container {
     padding: 5;
+  }
+  .skill-lang-box {
+    flex: 1 1 calc(50% - 20px);
+  }
+  .skill-weak-box {
+    flex: 1 1 calc(80%)
   }
 }
