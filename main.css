@@ -69,18 +69,20 @@ h1 {
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 250%;
   padding-left: 50px;
   padding-top: 5px;
+
 }
 
 .experience-container {
-  padding: 30px;
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
 }
 .experience-box {
   flex: 1 1 calc(33.333% - 20px);
@@ -88,13 +90,21 @@ h1 {
   border-radius: 8px;
 }
 
+.experience-box-skill {
+    min-width: 100%;
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+
 .experience-header {
   min-width: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .experience-header div {
   flex: 1;
@@ -118,6 +128,64 @@ li {
   font-weight: 500;
   line-height: 150%;
 }
+
+.skill-container{
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.skill-lang-box {
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.skill-weak-box{
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
