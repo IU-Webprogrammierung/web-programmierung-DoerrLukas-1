@@ -149,9 +149,12 @@ li {
   border-radius: 8px;
 }
 
-.tab {
-  display: inline-block;
-  margin-left: 4em;
+.skill-weak-box div {
+    padding-bottom: 10px;
+}
+
+.skill-h3{
+    padding-left: 10px;
 }
 
 .sub-header {
@@ -162,6 +165,35 @@ li {
   line-height: normal;
   padding-left: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .nav {
