@@ -286,7 +286,7 @@ li {
   padding: 30px;
   border-radius: 8px;
   font-size: 18px;
-  width: 250px;
+  width: 100%;
 }
 
 .contact-button {
@@ -301,13 +301,21 @@ li {
   font-size: 24px;;
 }
 
+.zitation-i{
+  font-family: Permanent Marker;
+  font-size: 18px;
+font-style: italic;
+}
+
 
 .contact-box-r {
-  flex: 1 1 calc(50%-20px);
+  flex: 1 1 calc(50% - 20px);
   padding: 30px;
   border-radius: 8px;
   font-size: 18px;
   width: 250px;
+  justify-content: center;
+  align-self: center;
 }
 
 
