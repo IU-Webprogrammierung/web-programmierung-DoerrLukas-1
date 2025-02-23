@@ -247,7 +247,7 @@ li {
 }
 
 .projects-box-3 {
-  flex: 1 1 calc(33.333% - 20px);
+  flex: 1 1 calc(32.333% - 20px);
   padding: 10px;
   border-radius: 8px;
   font-size: 18px;
@@ -290,5 +290,8 @@ li {
   .projects-box, 
   .skill-weak-box {
     flex: 1 1 calc(80%)
+  }
+  img {
+    width: 95%;
   }
 }
