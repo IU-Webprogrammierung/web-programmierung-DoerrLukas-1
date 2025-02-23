@@ -25,6 +25,26 @@ body {
   padding: 10px 15px;
   border-radius: 5px;
 }
+.nav a.active{
+    position: relative;
+    font-weight: bold;
+    color: #ffffff; /* Goldene Farbe für den aktiven Link */
+  }
+  
+  /* Punkt unter dem aktiven Link */
+  .nav a.active::after {
+    content: '•'; /* Punkt-Symbol */
+    color: #fdfdfd; /* Farbe des Punkts passend zum aktiven Link */
+    font-size: 24px; /* Größe des Punkts */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px; /* Abstand vom Text */
+  }
+
+
+
+
 .menu-toggle {
   display: none;
   font-size: 24px;
@@ -50,6 +70,24 @@ body {
   text-decoration: none;
   display: block;
 }
+.mobile-nav a.active{
+    position: relative;
+    font-weight: bold;
+    color: #ffffff; /* Goldene Farbe für den aktiven Link */
+  }
+  
+
+.mobile-nav a.active::after {
+    content: '•'; /* Punkt-Symbol */
+    color: #fdfdfd; /* Farbe des Punkts passend zum aktiven Link */
+    font-size: 24px; /* Größe des Punkts */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px; /* Abstand vom Text */
+    right: 100px;
+}
+
 .center-box {
   position: absolute;
   top: 50%;
@@ -192,20 +230,7 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 
