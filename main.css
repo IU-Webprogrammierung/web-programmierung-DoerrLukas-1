@@ -256,6 +256,61 @@ li {
 
 
 
+.contact-h4 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.contact-input {
+  background-color: #101010;
+  border: none;
+  border-bottom: 2px solid #3d3d3d;
+  font-size: 16px;
+  width: 550px;
+
+}
+
+.contact-area {
+  background-color: #101010;
+  border: none;
+  border-bottom: 2px solid #878787;
+  height: 200px;
+  width: 550px;
+  color: #878787;
+}
+
+.contact-box {
+  flex: 1 1 calc(50% - 20px);
+  padding: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 250px;
+}
+
+.contact-button {
+  background-color: #101010;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.zitation{
+  font-family: Permanent Marker;
+  font-size: 24px;;
+}
+
+
+.contact-box-r {
+  flex: 1 1 calc(50%-20px);
+  padding: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 250px;
+}
+
+
 
 @media (min-width: 768px) and (max-width: 1000px) {
   .projects-box {
