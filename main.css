@@ -184,6 +184,10 @@ li {
     padding-top: 10px;
   }
 
+  .skill-container > .skill-lang-box > div {
+    padding-bottom: 10px;
+}
+
 
 
 
