@@ -17,6 +17,7 @@ body {
   gap: 15px;
   background: #101010;
   padding: 15px;
+  text-transform: uppercase;
 }
 .nav a {
   text-decoration: none;
