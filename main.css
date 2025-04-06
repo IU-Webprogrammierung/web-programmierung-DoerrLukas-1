@@ -290,10 +290,16 @@ li {
 .contact-button {
   background-color: #ffffff;
   color: #101010;
-  padding: 10px 20px;
-  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.contact-button:hover {
+  background-color: #e5e5e5;
 }
 
 .quote{
