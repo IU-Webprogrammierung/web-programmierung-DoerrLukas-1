@@ -361,6 +361,8 @@ font-style: italic;
     flex: 1 1 calc(80%)
   }
   img {
-    width: 95%;
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
 }
