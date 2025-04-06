@@ -43,19 +43,26 @@
                 style="font-weight: 800; color: rgb(255, 255, 255);">LinkedIn</a> , but it will be the easiest
             to reach me via this
             contact form. I am looking forward to your messages and possible new clients ;)</p>
-        <div class="contact-box">
-            <h4 class="contact-h4">Name</h4>
-            <input class="contact-input" placeholder="John Doe" type="text">
-            <h4 class="contact-h4">Email</h4>
-            <input class="contact-input" placeholder="johnDoe@mail.com" type="email">
-            <h4 class="contact-h4">Message</h4>
-            <textarea class="contact-area"
-                type="text">I just wanted to tell you, that your desings are awesome and we want you to collaborate with us on a new project."  </textarea>
 
-            <div style="padding-top: 65px;">
-                <button class="contact-button" href="">Send away &#128386;</button>
-            </div>
-        </div>
+            <form class="contact-box" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="contact-input" id="name" name="name" type="text" placeholder="John Doe" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="contact-input" id="email" name="email" type="email" placeholder="john.doe@email.com" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="contact-area" id="message" name="message" placeholder="Tell me what’s on your mind…" required></textarea>
+                </div>
+            
+                <button class="contact-button" type="submit">Send away 📨</button>
+            </form>
+            
         <div class="contact-box-r">
             <p class="quote">Finding a qualified person for a positionis not just a staffing issue, but an investment
                 in the future of the company.</p> 
